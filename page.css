@@ -16,6 +16,7 @@
   display: flex;
   width: 30%;
   padding: 10px;
+  min-height: 400px;
   background-color: #37a8cc;
   flex-direction: column;
 }
@@ -155,6 +156,22 @@ li {
 
 .style_profil {
   font-size: 20px;
+}
+
+input {
+  padding: 5px 25px;
+  margin: 5px 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  background-color: #37a8cc;
+  border: 1px solid #37a8cc;
+  border-radius: 50px;
+  color: #ffffff;
+}
+input:hover {
+  opacity: 0.85;
 }
 
 @media screen and (max-width: 600px) {
